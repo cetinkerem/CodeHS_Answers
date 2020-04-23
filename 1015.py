@@ -100,6 +100,6 @@ while dashes != secret_word and guesses_left != 0:
     dashes = update_dashes(next_guess)
 
 if guesses_left != 0:
-    print "Congrats, you got it! The word was " + secret_word
+    print "Congrats, You win! The word was " + secret_word
 else:
-    print "You lost. The secret word was " + secret_word
+    print "You lose! The secret word was " + secret_word
