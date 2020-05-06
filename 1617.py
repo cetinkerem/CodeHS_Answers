@@ -78,7 +78,7 @@ def create_comp_list():
 
 def play_game():
     numbers = create_comp_list()
-    guesses = 10
+    guesses = 5
     while guesses > 0:
         print "Guesses left: " + str(guesses)
         
