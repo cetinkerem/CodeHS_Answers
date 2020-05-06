@@ -83,7 +83,7 @@ def play_game():
         print "Guesses left: " + str(guesses)
         
         if check_values(get_guess(), numbers):
-            break
+            return
         
         guesses = guesses - 1
     
